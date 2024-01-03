@@ -13,7 +13,7 @@
 **Test the App**
 ```sh
 npm install
-node app
+node server.js
 ```
 **Verify the _node.js_ application with the help of `curl` command**
 `curl localhost:8080`
