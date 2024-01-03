@@ -12,7 +12,7 @@
 
 **Test the App**
 ```sh
-npm istall
+npm install
 node app
 ```
 **Verify the _node.js_ application with the help of `curl` command**
