@@ -19,7 +19,7 @@ resource "docker_image" "node-js-app" {
 
 resource "docker_container" "node-js-app" {
   image = docker_image.node-js-app.image_id
-  name  = "tutorial"
+  name  = "test-app"
   ports {
     internal = 8080
     external = 49160
